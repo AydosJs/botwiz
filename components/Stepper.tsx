@@ -58,14 +58,14 @@ const Stepper = () => {
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div className={`h-full w-1 pointer-events-none ${getBackgroundClass(index, STEPS.length)}`}></div>
             </div>
-            <div className="-left-2 flex-shrink-0 w-10 h-10 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-[#FA4D6B] text-white relative title-font font-medium text-md">
+            <div className="-left-2 flex-shrink-0 w-10 h-10 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary text-white relative title-font font-medium text-md">
               {++index}
               <span className="hidden sm:block -z-10 w-16 bg-white h-1 absolute left-9 my-auto top-1/2 bottom-1/2"></span>
             </div>
 
             <div className="cursor-pointer hover:shadow-[5px_5px_0px_0px_rgba(255,255,255)] relative flex-grow sm:py-10 bg-neutral-900 bg-[radial-gradient(#262626_1px,transparent_1px)] [background-size:16px_16px] rounded-xl ml-0 sm:ml-12 md:p-8 p-6 flex sm:items-center items-start flex-col sm:flex-row">
               <span className="w-6 h-6 hidden sm:block my-auto absolute -left-3 -z-10 rounded-full bg-white"></span>
-              <div className="flex-shrink-0 w-24 h-24 bg-[#320f15] bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] text-[#FA4D6B] rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-24 h-24 bg-primary-dark bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] text-primary rounded-full inline-flex items-center justify-center">
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12" viewBox="0 0 24 24">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
